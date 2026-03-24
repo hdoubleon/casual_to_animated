@@ -16,25 +16,17 @@ This project is a Python-based image processing tool that converts standard phot
 
 In this example, the algorithm successfully converts the image into a cartoon style. The object has clear boundaries and relatively uniform colors, allowing the Bilateral Filter to smooth the surfaces effectively while the Adaptive Thresholding clearly captures the main outlines without excessive noise.
 
-### Before
-
-![Successful Original Demo](onepiece.png)
-
-### After
-
-![Successful Conversion Demo](cartoon_onepiece.png)
+| Before (원본) | After (카툰 렌더링) |
+| :---: | :---: |
+| <img src="onepiece.png" width="400"> | <img src="cartoon_onepiece.png" width="400"> |
 
 ## 2. Failed Demo (Poorly-Expressed Image)
 
 This example demonstrates a scenario where the cartoon rendering algorithm does not perform well. The original image contains highly detailed textures (e.g., complex hair, grass) and an intricate background.
 
-### Before
-
-![Failed Original Demo](dog.jpeg)
-
-### After
-
-![Failed Conversion Demo](cartoon_dog.jpeg)
+| Before (원본) | After (카툰 렌더링) |
+| :---: | :---: |
+| <img src="dog.jpeg" width="400"> | <img src="cartoon_dog.jpeg" width="400"> |
 
 ## 3. Algorithm Limitations (Discussion)
 
